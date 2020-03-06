@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
         margin: 0;
      color: #666d89;
@@ -5,7 +8,13 @@ body{
 h1,h2,h3,h4,h5,h6{
     margin:0;
 }
-
+ul,
+li{
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
 .container{
     width: 100%;
     max-width: 940px;
@@ -14,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
 
 .header{
     width: 100%;
-    min-height: 864px;
+    min-height: 870px;
     background-color: #2d303a;
     border-bottom:solid 6px #323746;
 } 
@@ -67,7 +76,7 @@ h1,h2,h3,h4,h5,h6{
 .first-intro h2{
     font-size: 30px;
     line-height: 22px;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 900;
     padding-top: 67px;
     text-align :justify
@@ -82,7 +91,7 @@ h1,h2,h3,h4,h5,h6{
     height: 57px;
     font-size: 18px;
 line-height: 30px;
-font-family: "Lato";
+font-family: "Lato", sans-serif;
 font-weight: 300;
 margin-top: 25px;
 text-align :justify
@@ -139,7 +148,7 @@ flex-flow:row wrap;
 }
 .about{
     width: 100%;
-    height: 728px;
+    height: 734px;
     background-color: #f2f2f2;
     border-bottom:solid 6px #ffffff;
 }

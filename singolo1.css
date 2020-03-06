@@ -2,11 +2,26 @@
   box-sizing: border-box;
 }
 
-body {
+ body {
   margin: 0;
-  color: #666d89;
 }
-
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 960px;
+  margin: 0 auto;
+}
 h1,
 h2,
 h3,
@@ -16,12 +31,6 @@ h6 {
   margin: 0;
 }
 
-.container {
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 960px;
-  margin: 0 auto;
-}
 
 .header {
   width: 100%;
@@ -44,7 +53,7 @@ h6 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   text-align: left;
-  margin: 32px 1px;
+  margin: 44px 0px;
   word-spacing: -5px;
 }
 
@@ -56,19 +65,16 @@ h6 {
 .logo-and-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 12px;
 }
 
 .nav {
   padding-top: 27px;
-
 }
 
 .nav ul,
 .nav li {
-  list-style-type: none;
-  display: inline;
-  margin-left: -5.5px;
+    display: inline-block;
+
 }
 
 .nav li+li {
@@ -78,7 +84,7 @@ h6 {
 .nav a {
   text-decoration: none;
   color: #fff;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 12px;
 }
@@ -86,7 +92,15 @@ h6 {
 .nav a:hover {
   color: #f06c64;
 }
-
+.nav p{
+  display: inline-block;
+  color:#323746;
+  line-height: 12px;
+}
+.nav li+p{
+  margin-right: 9px;
+  margin-left: 10px;
+}
 .position {
   position: absolute;
 }
@@ -157,7 +171,7 @@ button:focus {
   font-size: 30px;
   line-height: 18px;
   color: #666d89;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 900;
   text-align: left;
   margin-top: 68px;
@@ -169,7 +183,7 @@ button:focus {
   font-size: 18px;
   line-height: 30px;
   color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   text-align: left;
   margin-top: 27px;
@@ -200,7 +214,7 @@ button:focus {
   font-size: 18px;
   line-height: 19px;
   color: #666d89;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 900;
   text-align: left;
   margin: -1px 80px;
@@ -211,7 +225,7 @@ button:focus {
   font-size: 12px;
   line-height: 20px;
   color: #767e9e;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-align: justify;
 }
