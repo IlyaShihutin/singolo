@@ -163,7 +163,7 @@ function onScroll(event) {
 	const links = document.querySelectorAll('#Menu a');
   
 	sections.forEach((el) => {
-		if (el.offsetTop <= curPosition && (el.offsetTop + el.offsetHeight) > curPosition) {
+		if (el.offsetTop <= curPosition ) {
 			links.forEach((a) => {
 				a.classList.remove('active');
 				if (el.getAttribute('id') === a.getAttribute('href').substring(1)) {
