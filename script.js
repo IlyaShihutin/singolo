@@ -153,3 +153,23 @@ function scrollToNext() {
   });
   
 };
+// прокрутка хедера
+
+document.addEventListener('scroll', onScroll);
+
+function onScroll(event) {  
+	const curPosition = window.scrollY;
+	const sections = document.querySelectorAll('main>a');
+	const links = document.querySelectorAll('#Menu a');
+  
+	sections.forEach((el) => {
+		if (el.offsetTop <= curPosition && (el.offsetTop + el.offsetHeight) > curPosition) {
+			links.forEach((a) => {
+				a.classList.remove('active');
+				if (el.getAttribute('id') === a.getAttribute('href').substring(1)) {
+					a.classList.add('active');
+				}
+			})
+		}
+	});
+}
