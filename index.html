@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <link rel="stylesheet" href="assets/fonts/icomoon.css">
     <link rel="stylesheet" href="style.css">
+
     <title>SINGOLO*</title>
 
 </head>
@@ -13,22 +14,23 @@
 <body>
     <header>
         <div class="header">
+            
             <div class="container">
                 <div class="logo-and-nav">
                     <div class="header-logo">
                         <h1>SINGOLO <span>*</span></h1>
                     </div>
                     <nav class="nav-header">
-                        <ul>
-                            <li><a href="#">HOME</a></li>
+                        <ul id="Menu">
+                            <li><a class="header-menu-link" href="#MenuHome" >HOME</a></li>
                             <p>•</p>
-                            <li><a href="#Iservices">SERVICES</a></li>
+                            <li><a class="header-menu-link" href="#Iservices" >SERVICES</a></li>
                             <p>•</p>
-                            <li><a href="#Iportfolio">PORTFOLIO</a></li>
+                            <li><a class="header-menu-link" href="#Iportfolio">PORTFOLIO</a></li>
                             <p>•</p>
-                            <li><a href="#Iabout">ABOUT</a></li>
+                            <li><a class="header-menu-link" href="#Iabout" >ABOUT</a></li>
                             <p>•</p>
-                            <li><a href="#Iform">CONTACT</a></li>
+                            <li><a class="header-menu-link" href="#Iform" >CONTACT</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -37,24 +39,50 @@
     </header>
     <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <main>
-        <div class="phone">
-            <div class="container">
-                <div class="position">
-                    <img class="image-vertical-phone" src="assets/arrow-and-phone/iPhone_Vertical.png"
-                        alt="Vertical layout for iPhone.">
-                    <img class="image-horizontal-phone" src="assets/arrow-and-phone/iPhone_Horizontal.png"
-                        alt="Horizontal layout for iPhone.">
-                    <div class="arrow">
-                        <button class="left-arrow"><img src="assets/arrow-and-phone/arrow-left.png" alt="#"></button>
-                        <button class="right-arrow"><img src="assets/arrow-and-phone/arrow-right.png" alt="#"></button>
+        <a class="anchor" id="MenuHome"></a>
+        <div class="slider">
+            
+            <div class="slider__container">
+
+			<ul class="slider__list" style="width: 300vw; left: 0vw; transition: left 1s ease-in-out 0s;">
+
+                <li class='slider__item' style="background-color: #F06C64">
+                    <div class="slider-item-content">
+                        <div class="slider-img-vertical">
+                            <div class="phone-off-vertical"></div>
+                            <img src="assets/arrow-and-phone/iPhone_Vertical.png" alt="#">
+                        </div>
+                        <div class="slider-img-horizontal">
+                        	<div class="phone-off-horizontal"></div>
+                            <img src="assets/arrow-and-phone/iPhone_Horizontal.png" alt="#">
+                        </div>
                     </div>
-                </div>
+                </li>
+
+                <li class='slider__item' style="background-color: #648BF0">
+                    <div class="sliders-img-vertical">
+                        <img src="assets/arrow-and-phone/Sliders.png" alt="#"> 
+                    </div>
+                </li>
+
+            </ul>
+            <div class="slider-btns">
+                <button class='slider__arrow slider__arrow--prev' id='prev_slide'>
+                    <img src="assets/arrow-and-phone/arrow-left.png" alt="#">
+                </button>
+                <button class='slider__arrow slider__arrow--next' id='next_slide'>
+                    <img src="assets/arrow-and-phone/arrow-right.png" alt="#">
+                </button>
             </div>
+            </div>  
+		<div class="slider-border"></div>
         </div>
+        
         <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <div class="services" id="Iservices">
+        <div class="services"  >
             <div class="container">
-                <h2 class="about-heading"><a>Our Services</a></h2>
+                <a class="anchor" id="Iservices"></a>
+                <h2 class="about-heading" ><a >Our Services</a></h2>
                 <p class="about-paragraph">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
                     mollis, non
                     commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac
@@ -131,7 +159,8 @@
             </div>
         </div>
         <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <div id="Iportfolio" class="header-singolo2">
+        <a class="anchor" id="Iportfolio"></a>
+        <div class="header-singolo2">
             <div class="container">
 
                 <h1 class="logo">Portfolio</h1>
@@ -140,17 +169,19 @@
                         nisi erat porttitor ligula, eget lacinia
                         odio sem nec elit.</p>
                 </div>
-                <nav class="nav-portfolio">
-                    <ul class="nav-content">
-                        <li><a href="#">All</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Artwork</a></li>
-                    </ul>
-                </nav>
+                <!-- <nav class="nav-portfolio">
+                    <ul class="nav-content" id="nav-content"> -->
+                        <div class="portfolio-button" id='portfolio-button'>
+
+                            <button disabled class="active-btn" type="button">All</button>
+                            <button type="button">Web Desigen</button>
+                            <button type="button">Graphic Design</button>
+                            <button type="button">Artwork</button>
+                            
+                        </div>
 
                 <div class="portfolio-items">
-                    <div class="image-group">
+                    <div class="image-group" id="image-group">
                         <img class="image-marg" src="assets/Portfolio/1.jpg " alt="#">
                         <img class="image-marg" src="assets/Portfolio/2.jpg" alt="#">
                         <img class="image-marg" src="assets/Portfolio/3.jpg" alt="#">
@@ -168,7 +199,8 @@
             </div>
         </div>
         <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <div id="Iabout" class="about">
+        <div  class="about">
+            <a class="anchor" id="Iabout"></a>
             <div class="container">
                 <div class="intro">
                     <div class="first-intro">
@@ -259,7 +291,16 @@
             </div>
         </div>
         <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <div class="quote">
+         <div id="message-block"class="hidden">
+                <div id="message">
+                    <p class="ramka">Письмо отправлено!!!</p>
+                    <p class="ramka" id="result-subject"> </p>
+                    <p  class="ramka" id="result-describe"></p>
+                    <button id="close-btn" >OK</button> 
+                </div>
+            </div>  
+            <div class="quote">
+           
             <div class="container">
                 <div class="quote-text">
                     <div class="quote-first-name">
@@ -274,16 +315,14 @@
                     </div>
                 </div>
 
-                <form action="#" method="post">
+                <form action="" method="post" onsubmit="return false">
                     <div class="feald-and-contact">
                         <div class="field">
                             <div class="field-left">
-                                <input required minlength="2" maxlength="30" type="text" name="name"
-                                    placeholder="Name (Required)">
-                                <input required maxlength="40" type="email" name="Email" placeholder="Email (Required)">
-                                <input maxlength="50" type="text" name="subject" placeholder="Subject">
-                                <textarea maxlength="900" name="comment"
-                                    placeholder="Describe your project in detail..."></textarea>
+                                <input id='subname' required minlength="2" maxlength="30" type="text" name="name" placeholder="Name (Required)">
+                                <input id="email" required maxlength="40" type="email" name="Email" placeholder="Email (Required)">
+                                <input id='subject' maxlength="50" type="text" name="subject" placeholder="Subject">
+                                <textarea id='describe'  maxlength="900" name="comment" placeholder="Describe your project in detail..."></textarea>
                             </div>
                         </div>
                         <div class="contact-information" id="Iform">
@@ -305,7 +344,7 @@
                                     <p> <a href="mailto:info@singolo.com">info@singolo.com</a></p>
                                 </div>
                             </div>
-                            <button class="default-btn" type="submit" name="submit">
+                            <button  id = 'btn' class="default-btn" type="submit" name="submit" >
                                 Submit
                             </button>
                         </div>
@@ -343,7 +382,7 @@
             </div>
         </footer>
     </main>
-
+    <script src="script.js" style="text/javascrip"></script>
 </body>
 
 </html>
