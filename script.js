@@ -15,27 +15,27 @@ MENU.addEventListener('click', (event)=> {
 // Включение и отключение экранов  
 const SCREENh = document.querySelector('.phone-off-horizontal');
 const SCREENv = document.querySelector('.phone-off-vertical');
-const Displeyh = document.querySelector('.slider-img-horizontal');
-const Displeyv = document.querySelector('.slider-img-vertical');
+// const SCREENvh =document.querySelector('.slider__list');
 let k=0;
-
-Displeyh.addEventListener('click', (event)=>{
+// SCREENvh.querySelector('a');
+SCREENh.addEventListener('click', (event)=>{
     if(k==0){ 
     	SCREENh.style.background ='rgba(0,0,0,0.0)';
-    	k++;
+    	k=1;
     }else {
-    	SCREENh.style.background ='rgba(0,0,0,1)';
-    	k--;
-    }
+    	SCREENh.style.background ='rgba(0,0,0,1.0)';
+    	k=0;
+    };
 });
-Displeyv.addEventListener('click', (event)=>{
+
+SCREENv.addEventListener('click', (event)=>{
     if(k==0){ 
-    	SCREENv.style.background ='rgba(0,0,0,1)';
-    	k++;
+    	SCREENv.style.background ='rgba(0,0,0,1.0)';
+    	k=1;
     }else {
     	SCREENv.style.background ='rgba(0,0,0,0)';
-    	k--;
-    }
+    	k=0;
+    };
 });
 //подсвечивание иконок профиля
 pictureBorder.addEventListener('click',(event)=>{
