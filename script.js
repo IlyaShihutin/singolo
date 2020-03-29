@@ -7,7 +7,12 @@ const MENU = document.getElementById('Menu');
 MENU.addEventListener('click', (event) => {
     MENU.querySelectorAll('a').forEach(el => el.classList.remove('active'));
     event.target.classList.add('active');
-
+    if (window.innerWidth < 765) {
+        BURGER.style.transform = 'rotate(0deg)';
+        NAVMENU.style.display = 'none';
+        BurgerMEnu.style.display = 'none';
+        LOGO.style.margin = ' 0';
+    }
 });
 
 // бургер меню
