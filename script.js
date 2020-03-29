@@ -14,21 +14,21 @@ MENU.addEventListener('click', (event) => {
 const BURGER = document.querySelector('.menu-btn');
 const NAVMENU = document.querySelector('.nav-header');
 const LOGO = document.querySelector('.header-logo');
-const SHADOW = document.querySelector('.shadow-header-menu');
+const BurgerMEnu = document.querySelector('.burger-header-menu');
 let n = 0;
 BURGER.addEventListener('click', (event) => {
     if (n == 0) {
         BURGER.style.transform = 'rotate(90deg)';
         BURGER.style.margin = ' 19px -6px';
         NAVMENU.style.display = 'block';
-        SHADOW.style.display = 'block';
+        BurgerMEnu.style.display = 'block';
         LOGO.style.margin = ' 0px -77px';
         LOGO.style.zIndex = "4";
         n = 1;
     } else {
         BURGER.style.transform = 'rotate(0deg)';
         NAVMENU.style.display = 'none';
-        SHADOW.style.display = 'none';
+        BurgerMEnu.style.display = 'none';
         LOGO.style.margin = ' 0';
         n = 0;
     };
