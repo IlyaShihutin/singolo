@@ -1,427 +1,432 @@
-                                    @media (min-width: 768px) and (max-width: 1019px) {
-                                        .container {
-                                            width: 768px;
-                                            padding: 0 40px;
-                                        }
-                                        .logo-and-nav {
-                                            margin: 9px -27px;
-                                        }
-                                        .slider__container {
-                                            height: 445px;
-                                        }
-                                        .slider__item {
-                                            height: 452px;
-                                        }
-                                        .slider-item-content {
-                                            max-width: 600px;
-                                            width: 100%;
-                                            height: 100%;
-                                        }
-                                        .slider-btns {
-                                            width: 711px;
-                                            margin-left: -350px;
-                                        }
-                                        .phone-off-vertical {
-                                            width: 143px;
-                                            height: 252px;
-                                            margin-top: 49px;
-                                            margin-left: 10px;
-                                            border-radius: 3px;
-                                        }
-                                        .phone-off-horizontal {
-                                            height: 143px;
-                                            width: 252px;
-                                            margin-top: 10px;
-                                            margin-left: 45px;
-                                            border-radius: 3px;
-                                        }
-                                        .slider-img-vertical {
-                                            padding-top: 40px;
-                                            padding-left: 0px;
-                                        }
-                                        .secondImg {
-                                            max-width: 312px;
-                                            margin-left: 114px;
-                                            padding-top: 26px;
-                                        }
-                                        .slider-img-horizontal {
-                                            padding-top: 134px;
-                                            padding-left: 53px;
-                                        }
-                                        img.telVer {
-                                            height: 88%;
-                                            width: 100%;
-                                        }
-                                        img.telHor {
-                                            height: 57%;
-                                            width: 100%;
-                                        }
-                                        .services {
-                                            min-height: 675px;
-                                        }
-                                        .about-heading {
-                                            padding-top: 49px;
-                                        }
-                                        .about-paragraph {
-                                            margin-bottom: 69px;
-                                        }
-                                        .about-list {
-                                            margin: 0px 35px;
-                                        }
-                                        .about-all-list {
-                                            margin-left: -34px;
-                                            margin-bottom: 44px;
-                                        }
-                                        .header-singolo2 {
-                                            min-height: 1102px;
-                                        }
-                                        .first-text p {
-                                            width: 656px;
-                                            word-spacing: 2px;
-                                            line-height: 29px;
-                                            margin-bottom: 14px;
-                                            margin-top: 13px;
-                                        }
-                                        .portfolio-button {
-                                            margin-bottom: 28px;
-                                        }
-                                        .image-marg {
-                                            height: 183px;
-                                            width: 214px;
-                                        }
-                                        .about {
-                                            height: 669px;
-                                        }
-                                        .about-photo {
-                                            margin: 0px 11px 0px 2px;
-                                        }
-                                        .first-intro h2 {
-                                            padding-top: 59px;
-                                        }
-                                        .three-photo {
-                                            margin-top: 71px;
-                                            flex-flow: row;
-                                        }
-                                        .image-photo {
-                                            height: 218px;
-                                            width: 221px;
-                                        }
-                                        .photo-name h3 {
-                                            margin: 11px 0px 3px;
-                                        }
-                                        .photo-text p {
-                                            margin-bottom: 10px;
-                                        }
-                                        .quote {
-                                            height: 631px;
-                                        }
-                                        .quote-text {
-                                            padding-top: 62px;
-                                        }
-                                        .quote-second-text {
-                                            margin-bottom: 31px;
-                                        }
-                                        .feald-and-contact {
-                                            margin: 0px -53px 0px 0px;
-                                        }
-                                        .contact-name h3 {
-                                            margin: 28px 29px;
-                                        }
-                                        .contact-text p {
-                                            margin: -26px 29px;
-                                            width: 220px;
-                                        }
-                                        .contact-emblem {
-                                            margin: -49px 29px 18px;
-                                            line-height: 22px;
-                                        }
-                                        .field-left input {
-                                            margin-bottom: 11px;
-                                        }
-                                        .contact-information button {
-                                            margin: 0px 27px;
-                                            width: 80%;
-                                        }
-                                    }
-                                    
-                                    @media (min-width: 320px) and (max-width: 767px) {
-                                        /*  burger*/
-                                        .burger-header-menu {
-                                            background: #2D303A;
-                                            opacity: 0.6;
-                                            width: 100vh;
-                                            height: 100vh;
-                                            margin-left: 150px;
-                                            z-index: 2;
-                                            position: fixed;
-                                            display: none;
-                                        }
-                                        .nav-header {
-                                            overflow: hidden;
-                                            position: absolute;
-                                            width: 279px;
-                                            height: 100vh;
-                                            margin: 0px 0px;
-                                            background-color: #2d303a;
-                                            left: 0;
-                                            display: none;
-                                            z-index: 3;
-                                        }
-                                        .nav-header ul {
-                                            width: 205px;
-                                            height: 260px;
-                                            display: block;
-                                            float: right;
-                                            margin: 206px -5px;
-                                        }
-                                        .nav-header ul p {
-                                            display: none;
-                                        }
-                                        .nav-header li {
-                                            display: block;
-                                            margin-bottom: 27px;
-                                        }
-                                        .nav-header li a {
-                                            font-size: 24px;
-                                            line-height: 29px;
-                                        }
-                                        .menu-btn {
-                                            position: absolute;
-                                            background-color: transparent;
-                                            border: none;
-                                            margin-top: 24px;
-                                            left: 20px;
-                                            display: block;
-                                            outline: none;
-                                            z-index: 4;
-                                        }
-                                        /*  */
-                                        .container {
-                                            width: 375px;
-                                            padding: 0 30px;
-                                        }
-                                        .logo-and-nav {
-                                            margin: 0 auto;
-                                        }
-                                        .header {
-                                            height: 71px;
-                                            margin-top: -71px;
-                                            border-bottom: 0;
-                                        }
-                                        .header-logo h1 {
-                                            font-size: 19px;
-                                            line-height: 1px;
-                                            text-align: center;
-                                            margin: 36px 118px;
-                                            word-spacing: -5px;
-                                        }
-                                        .header-logo h1 span {
-                                            font-size: 19px;
-                                        }
-                                        .slider {
-                                            margin-top: 71px;
-                                            padding-top: 0;
-                                        }
-                                        .slider-border {
-                                            display: none;
-                                        }
-                                        .slider__container {
-                                            height: 220px;
-                                        }
-                                        img.telVer {
-                                            height: 112%;
-                                            width: 100%;
-                                        }
-                                        img.telHor {
-                                            height: 78%;
-                                            width: 100%;
-                                        }
-                                        .slider__item {
-                                            height: 220px;
-                                        }
-                                        .slider__list {
-                                            height: 220px;
-                                        }
-                                        .slider-item-content {
-                                            max-width: 293px;
-                                            width: 100%;
-                                            height: 178px;
-                                        }
-                                        .slider-btns {
-                                            width: 360px;
-                                            margin-left: -174px;
-                                            top: 44%;
-                                        }
-                                        .secondImg {
-                                            max-width: 151px;
-                                            margin-left: 113px;
-                                        }
-                                        .phone-off-vertical {
-                                            height: 125px;
-                                            width: 70px;
-                                            margin-top: 21px;
-                                            margin-left: 5px;
-                                        }
-                                        .phone-off-horizontal {
-                                            height: 70px;
-                                            width: 123px;
-                                            margin-top: 4px;
-                                            margin-left: 22px;
-                                        }
-                                        .slider__arrow--prev {
-                                            left: -10px;
-                                        }
-                                        .slider__arrow--next {
-                                            right: 1px;
-                                        }
-                                        .slider-img-vertical {
-                                            padding-top: 20px;
-                                            padding-left: 0px;
-                                        }
-                                        .sliders-img-vertical {
-                                            padding-top: 41px;
-                                        }
-                                        .slider-img-horizontal {
-                                            padding-top: 66px;
-                                            padding-left: 26px;
-                                        }
-                                        .services {
-                                            min-height: 1033px;
-                                            border-bottom: 0;
-                                        }
-                                        .about-heading {
-                                            padding-top: 34px;
-                                        }
-                                        .about-list {
-                                            margin-top: 182px;
-                                        }
-                                        .about-all-list {
-                                            margin-bottom: 18px;
-                                        }
-                                        .header-singolo2 {
-                                            max-height: 844px;
-                                            min-height: 844px;
-                                            border-bottom: 0;
-                                        }
-                                        .logo {
-                                            padding-top: 51px;
-                                        }
-                                        .first-text p {
-                                            padding-top: 11px;
-                                            line-height: 28px;
-                                            margin-bottom: 20px;
-                                            word-spacing: 1px;
-                                            width: 311px;
-                                        }
-                                        .image-marg {
-                                            padding-top: 5px;
-                                            width: 151px;
-                                            height: 133px;
-                                            margin-bottom: 9px;
-                                        }
-                                        .image-group {
-                                            margin-bottom: 0;
-                                            height: 572px;
-                                            overflow: hidden;
-                                        }
-                                        .about {
-                                            min-height: 1754px;
-                                            border: 0;
-                                        }
-                                        .first-intro h2 {
-                                            padding-top: 40px;
-                                        }
-                                        .three-photo {
-                                            margin-top: 178px;
-                                        }
-                                        .image-photo {
-                                            height: 314px;
-                                            width: 315px;
-                                            cursor: auto;
-                                            margin-bottom: -2px;
-                                        }
-                                        .photo-text p {
-                                            margin-bottom: 12px;
-                                            width: 314px;
-                                        }
-                                        .photo-name h3 {
-                                            margin: 15px 0px 5px;
-                                        }
-                                        .about-btn-box {
-                                            margin-bottom: 32px;
-                                        }
-                                        .quote {
-                                            height: 969px;
-                                            border: 0;
-                                        }
-                                        .quote-text {
-                                            padding-top: 53px;
-                                        }
-                                        .feald-and-contact {
-                                            flex-direction: column;
-                                        }
-                                        .quote-second-text p {
-                                            margin-bottom: 148px;
-                                        }
-                                        .field-left input {
-                                            margin-bottom: 11px;
-                                        }
-                                        .contact-information button {
-                                            position: absolute;
-                                            top: 4577px;
-                                            height: 49px;
-                                            width: 314px;
-                                        }
-                                        .contact-name h3 {
-                                            margin-top: 92px;
-                                        }
-                                        .contact-text p {
-                                            margin-top: 2px;
-                                            margin-bottom: -90px;
-                                        }
-                                        .contact-emblem a {
-                                            line-height: 23px;
-                                        }
-                                        .footer-text p {
-                                            display: none;
-                                        }
-                                        .field-left textarea {
-                                            height: 159px;
-                                        }
-                                        .footer-btn {
-                                            margin: auto;
-                                        }
-                                        .footer {
-                                            height: 76px;
-                                        }
-                                    }
-                                    
-                                    @media (max-width:320px) {
-                                        .container {
-                                            width: 320px;
-                                            padding: 0 30px;
-                                        }
-                                        .about-all-list {
-                                            width: 280px;
-                                        }
-                                        .first-text p {
-                                            width: 280px;
-                                        }
-                                        .photo-text p {
-                                            margin-bottom: 12px;
-                                            width: 280px;
-                                        }
-                                        .contact-text p {
-                                            width: 280px;
-                                        }
-                                        .image-photo {
-                                            height: 280px;
-                                            width: 280px;
-                                        }
-                                        .contact-information button {
-                                            position: absolute;
-                                            top: 4657px;
-                                            height: 49px;
-                                            width: 261px;
-                                        }
-                                    }
+                                                            @media (min-width: 768px) and (max-width: 1019px) {
+                                                                .container {
+                                                                    width: 768px;
+                                                                    padding: 0 40px;
+                                                                }
+                                                                .logo-and-nav {
+                                                                    margin: 9px -27px;
+                                                                }
+                                                                .slider__container {
+                                                                    height: 445px;
+                                                                }
+                                                                .slider__item {
+                                                                    height: 452px;
+                                                                }
+                                                                .slider-item-content {
+                                                                    max-width: 600px;
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                }
+                                                                .slider-btns {
+                                                                    width: 711px;
+                                                                    margin-left: -350px;
+                                                                }
+                                                                .phone-off-vertical {
+                                                                    width: 143px;
+                                                                    height: 252px;
+                                                                    margin-top: 49px;
+                                                                    margin-left: 10px;
+                                                                    border-radius: 3px;
+                                                                }
+                                                                .phone-off-horizontal {
+                                                                    height: 143px;
+                                                                    width: 252px;
+                                                                    margin-top: 10px;
+                                                                    margin-left: 45px;
+                                                                    border-radius: 3px;
+                                                                }
+                                                                .slider-img-vertical {
+                                                                    padding-top: 40px;
+                                                                    padding-left: 0px;
+                                                                }
+                                                                .secondImg {
+                                                                    max-width: 312px;
+                                                                    margin-left: 114px;
+                                                                    padding-top: 26px;
+                                                                }
+                                                                .slider-img-horizontal {
+                                                                    padding-top: 134px;
+                                                                    padding-left: 53px;
+                                                                }
+                                                                img.telVer {
+                                                                    height: 88%;
+                                                                    width: 100%;
+                                                                }
+                                                                img.telHor {
+                                                                    height: 57%;
+                                                                    width: 100%;
+                                                                }
+                                                                .services {
+                                                                    min-height: 675px;
+                                                                }
+                                                                .about-heading {
+                                                                    padding-top: 49px;
+                                                                }
+                                                                .about-paragraph {
+                                                                    margin-bottom: 69px;
+                                                                }
+                                                                .about-list {
+                                                                    margin: 0px 35px;
+                                                                }
+                                                                .about-all-list {
+                                                                    margin-left: -34px;
+                                                                    margin-bottom: 44px;
+                                                                }
+                                                                .header-singolo2 {
+                                                                    min-height: 1102px;
+                                                                }
+                                                                .first-text p {
+                                                                    width: 656px;
+                                                                    word-spacing: 2px;
+                                                                    line-height: 29px;
+                                                                    margin-bottom: 14px;
+                                                                    margin-top: 13px;
+                                                                }
+                                                                .portfolio-button {
+                                                                    margin-bottom: 28px;
+                                                                }
+                                                                .image-marg {
+                                                                    height: 183px;
+                                                                    width: 214px;
+                                                                }
+                                                                .about {
+                                                                    height: 669px;
+                                                                }
+                                                                .about-photo {
+                                                                    margin: 0px 11px 0px 2px;
+                                                                }
+                                                                .first-intro h2 {
+                                                                    padding-top: 59px;
+                                                                }
+                                                                .three-photo {
+                                                                    margin-top: 71px;
+                                                                    flex-flow: row;
+                                                                }
+                                                                .image-photo {
+                                                                    height: 218px;
+                                                                    width: 221px;
+                                                                }
+                                                                .photo-name h3 {
+                                                                    margin: 11px 0px 3px;
+                                                                }
+                                                                .photo-text p {
+                                                                    margin-bottom: 10px;
+                                                                }
+                                                                .quote {
+                                                                    height: 631px;
+                                                                }
+                                                                .quote-text {
+                                                                    padding-top: 62px;
+                                                                }
+                                                                .quote-second-text {
+                                                                    margin-bottom: 31px;
+                                                                }
+                                                                .feald-and-contact {
+                                                                    margin: 0px -53px 0px 0px;
+                                                                }
+                                                                .contact-name h3 {
+                                                                    margin: 28px 29px;
+                                                                }
+                                                                .contact-text p {
+                                                                    margin: -26px 29px;
+                                                                    width: 220px;
+                                                                }
+                                                                .contact-emblem {
+                                                                    margin: -49px 29px 18px;
+                                                                    line-height: 22px;
+                                                                }
+                                                                .field-left input {
+                                                                    margin-bottom: 11px;
+                                                                }
+                                                                .contact-information button {
+                                                                    margin: 0px 27px;
+                                                                    width: 80%;
+                                                                }
+                                                            }
+                                                            
+                                                            @media (min-width: 320px) and (max-width: 767px) {
+                                                                /*  burger*/
+                                                                .burger-header-menu {
+                                                                    background: #2D303A;
+                                                                    opacity: 0.6;
+                                                                    width: 100vh;
+                                                                    height: 100vh;
+                                                                    margin-left: 150px;
+                                                                    z-index: 2;
+                                                                    position: fixed;
+                                                                    display: none;
+                                                                }
+                                                                .nav-header {
+                                                                    overflow: hidden;
+                                                                    position: absolute;
+                                                                    width: 279px;
+                                                                    height: 100vh;
+                                                                    margin: 0px 0px;
+                                                                    background-color: #2d303a;
+                                                                    left: 0;
+                                                                    display: none;
+                                                                    z-index: 3;
+                                                                }
+                                                                .nav-header ul {
+                                                                    width: 205px;
+                                                                    height: 260px;
+                                                                    display: block;
+                                                                    float: right;
+                                                                    margin: 206px -5px;
+                                                                }
+                                                                .nav-header ul p {
+                                                                    display: none;
+                                                                }
+                                                                .nav-header li {
+                                                                    display: block;
+                                                                    margin-bottom: 27px;
+                                                                }
+                                                                .nav-header li a {
+                                                                    font-size: 24px;
+                                                                    line-height: 29px;
+                                                                }
+                                                                .menu-btn {
+                                                                    position: absolute;
+                                                                    background-color: transparent;
+                                                                    border: none;
+                                                                    margin-top: 24px;
+                                                                    left: 20px;
+                                                                    display: block;
+                                                                    outline: none;
+                                                                    z-index: 4;
+                                                                }
+                                                                /*  */
+                                                                .container {
+                                                                    width: 375px;
+                                                                    padding: 0 30px;
+                                                                }
+                                                                .logo-and-nav {
+                                                                    margin: 0 auto;
+                                                                }
+                                                                .header {
+                                                                    height: 71px;
+                                                                    border-bottom: 0;
+                                                                }
+                                                                .header-logo h1 {
+                                                                    font-size: 19px;
+                                                                    line-height: 1px;
+                                                                    text-align: center;
+                                                                    margin: 36px 118px;
+                                                                    word-spacing: -5px;
+                                                                }
+                                                                .header-logo h1 span {
+                                                                    font-size: 19px;
+                                                                }
+                                                                .slider {
+                                                                    margin-top: 71px;
+                                                                    padding-top: 0;
+                                                                }
+                                                                .slider-border {
+                                                                    display: none;
+                                                                }
+                                                                .slider__container {
+                                                                    height: 220px;
+                                                                }
+                                                                img.telVer {
+                                                                    height: 112%;
+                                                                    width: 100%;
+                                                                }
+                                                                img.telHor {
+                                                                    height: 78%;
+                                                                    width: 100%;
+                                                                }
+                                                                .slider__item {
+                                                                    height: 220px;
+                                                                }
+                                                                .slider__list {
+                                                                    height: 220px;
+                                                                }
+                                                                .slider-item-content {
+                                                                    max-width: 293px;
+                                                                    width: 100%;
+                                                                    height: 178px;
+                                                                }
+                                                                .slider-btns {
+                                                                    width: 360px;
+                                                                    margin-left: -174px;
+                                                                    top: 44%;
+                                                                }
+                                                                .secondImg {
+                                                                    max-width: 151px;
+                                                                    margin-left: 113px;
+                                                                }
+                                                                .phone-off-vertical {
+                                                                    height: 125px;
+                                                                    width: 70px;
+                                                                    margin-top: 21px;
+                                                                    margin-left: 5px;
+                                                                }
+                                                                .phone-off-horizontal {
+                                                                    height: 70px;
+                                                                    width: 123px;
+                                                                    margin-top: 4px;
+                                                                    margin-left: 22px;
+                                                                }
+                                                                .slider__arrow--prev {
+                                                                    left: -10px;
+                                                                }
+                                                                .slider__arrow--next {
+                                                                    right: 1px;
+                                                                }
+                                                                .slider-img-vertical {
+                                                                    padding-top: 20px;
+                                                                    padding-left: 0px;
+                                                                }
+                                                                .sliders-img-vertical {
+                                                                    padding-top: 41px;
+                                                                }
+                                                                .slider-img-horizontal {
+                                                                    padding-top: 66px;
+                                                                    padding-left: 26px;
+                                                                }
+                                                                .services {
+                                                                    min-height: 1033px;
+                                                                    border-bottom: 0;
+                                                                }
+                                                                .about-heading {
+                                                                    padding-top: 34px;
+                                                                }
+                                                                .about-list {
+                                                                    margin-top: 182px;
+                                                                }
+                                                                .about-all-list {
+                                                                    margin-bottom: 18px;
+                                                                }
+                                                                .header-singolo2 {
+                                                                    max-height: 844px;
+                                                                    min-height: 844px;
+                                                                    border-bottom: 0;
+                                                                }
+                                                                .logo {
+                                                                    padding-top: 51px;
+                                                                }
+                                                                .first-text p {
+                                                                    padding-top: 11px;
+                                                                    line-height: 28px;
+                                                                    margin-bottom: 20px;
+                                                                    word-spacing: 1px;
+                                                                    width: 311px;
+                                                                }
+                                                                .image-marg {
+                                                                    padding-top: 5px;
+                                                                    width: 151px;
+                                                                    height: 133px;
+                                                                    margin-bottom: 9px;
+                                                                }
+                                                                .image-group {
+                                                                    margin-bottom: 0;
+                                                                    height: 572px;
+                                                                    overflow: hidden;
+                                                                }
+                                                                .about {
+                                                                    min-height: 1754px;
+                                                                    border: 0;
+                                                                }
+                                                                .first-intro h2 {
+                                                                    padding-top: 40px;
+                                                                }
+                                                                .three-photo {
+                                                                    margin-top: 178px;
+                                                                }
+                                                                .image-photo {
+                                                                    height: 314px;
+                                                                    width: 315px;
+                                                                    cursor: auto;
+                                                                    margin-bottom: -2px;
+                                                                }
+                                                                .photo-text p {
+                                                                    margin-bottom: 12px;
+                                                                    width: 314px;
+                                                                }
+                                                                .photo-name h3 {
+                                                                    margin: 15px 0px 5px;
+                                                                }
+                                                                .about-btn-box {
+                                                                    margin-bottom: 32px;
+                                                                }
+                                                                .quote {
+                                                                    height: 969px;
+                                                                    border: 0;
+                                                                }
+                                                                .quote-text {
+                                                                    padding-top: 53px;
+                                                                }
+                                                                .feald-and-contact {
+                                                                    flex-direction: column;
+                                                                }
+                                                                .quote-second-text p {
+                                                                    margin-bottom: 148px;
+                                                                }
+                                                                .field-left input {
+                                                                    margin-bottom: 11px;
+                                                                }
+                                                                .contact-information button {
+                                                                    position: absolute;
+                                                                    top: 4577px;
+                                                                    height: 49px;
+                                                                    width: 314px;
+                                                                }
+                                                                .contact-name h3 {
+                                                                    margin-top: 92px;
+                                                                }
+                                                                .contact-text p {
+                                                                    margin-top: 2px;
+                                                                    margin-bottom: -90px;
+                                                                }
+                                                                .contact-emblem a {
+                                                                    line-height: 23px;
+                                                                }
+                                                                .footer-text p {
+                                                                    display: none;
+                                                                }
+                                                                .field-left textarea {
+                                                                    height: 159px;
+                                                                }
+                                                                .footer-btn {
+                                                                    margin: auto;
+                                                                }
+                                                                .footer {
+                                                                    height: 76px;
+                                                                }
+                                                            }
+                                                            
+                                                            @media (max-width:320px) {
+                                                                .container {
+                                                                    width: 320px;
+                                                                    padding: 0 30px;
+                                                                }
+                                                                .about-all-list {
+                                                                    width: 280px;
+                                                                }
+                                                                .first-text p {
+                                                                    width: 280px;
+                                                                }
+                                                                .photo-text p {
+                                                                    margin-bottom: 12px;
+                                                                    width: 280px;
+                                                                }
+                                                                .contact-text p {
+                                                                    width: 280px;
+                                                                }
+                                                                .image-photo {
+                                                                    height: 280px;
+                                                                    width: 280px;
+                                                                }
+                                                                .contact-information button {
+                                                                    position: absolute;
+                                                                    top: 4657px;
+                                                                    height: 49px;
+                                                                    width: 261px;
+                                                                }
+                                                                .slider-btns {
+                                                                    width: 100px;
+                                                                    margin-left: -174px;
+                                                                    top: 163px;
+                                                                    left: 344px;
+                                                                }
+                                                            }
